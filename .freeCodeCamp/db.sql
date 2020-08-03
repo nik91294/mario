@@ -79,6 +79,8 @@ ALTER TABLE public.second_table OWNER TO freecodecamp;
 -- Data for Name: second_table; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.second_table VALUES (1, 'Samus');
+INSERT INTO public.second_table VALUES (2, 'Mario');
 
 
 --
