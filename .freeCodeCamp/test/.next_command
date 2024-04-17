@@ -214,6 +214,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git pull --tags origin main --no-rebase
 git pull --tags origin main --rebase
 git add .
+<<<<<<< HEAD
 >>>>>>> 6b64b81 (pull)
 builtin unset VSCODE_INJECTION
 [ -z "$VSCODE_SHELL_INTEGRATION" ]
@@ -242,3 +243,7 @@ psql --username=freecodecamp --dbname=second_database
 \d second_table
 SELECT * FROM second_table
 psql --username=freecodecamp --dbname=second_database
+=======
+git pull --tags origin main --rebase
+git add .
+>>>>>>> 7138202 (2024/04/17)
