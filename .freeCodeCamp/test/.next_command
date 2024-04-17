@@ -53,6 +53,7 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello PostgreSQL
+<<<<<<< HEAD
 >>>>>>> 9190155 (Save progress: 10.1)
 builtin unset VSCODE_INJECTION
 [ -z "$VSCODE_SHELL_INTEGRATION" ]
@@ -182,3 +183,6 @@ cd "/workspace/project"
 echo -n 0be990f0-19b2-4c83-8ea4-35ef3c07039b
 cat /proc/self/environ
 echo -n 0be990f0-19b2-4c83-8ea4-35ef3c07039b
+=======
+psql --username=freecodecamp --dbname=postgres
+>>>>>>> a589199 (Save progress: 20.1)
